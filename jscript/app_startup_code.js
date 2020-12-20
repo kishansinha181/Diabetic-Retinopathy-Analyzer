@@ -33,8 +33,8 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('http://dr.test.woza.work/model_dr_2/model.json');
-	$("#selected-image").attr("src", "http://dr.test.woza.work/assets/fundus_1.jpg");
+	model = await tf.loadModel('https://dr.test.woza.work/model_dr_2/model.json');
+	$("#selected-image").attr("src", "https://dr.test.woza.work/assets/fundus_1.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
