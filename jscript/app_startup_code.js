@@ -34,7 +34,7 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('https://cors-anywhere.herokuapp.com/http://dr.test.woza.work/model_dr_2/model.json');
-	$("#selected-image").attr("src", "https://dr.test.woza.work/assets/fundus_1.jpg");
+	$("#selected-image").attr("src", "https://cors-anywhere.herokuapp.com/https://dr.test.woza.work/assets/fundus_1.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
