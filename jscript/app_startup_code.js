@@ -83,7 +83,7 @@ $("#predict-button").click(async function () {
 	.div(offset)
 	.expandDims();
 	
-	
+	//asd
 	// Pass the tensor to the model and call predict on it.
 	// Predict returns a tensor.
 	// data() loads the values of the output tensor and returns
